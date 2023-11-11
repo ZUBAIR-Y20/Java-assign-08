@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Java assignment 8</title>
+</head>
+<body>
+    <a href="#" id="myLink">Click On Link!</a>
+
+
+    <div id="gallery">
+        <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg" alt="Mobile 1" class="mobile-image" onclick="showAlert('Mobile 1 clicked!')">
+        <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg" alt="Mobile 2" class="mobile-image" onclick="showAlert('Mobile 2 clicked!')">
+        <img src="data:image/jpeg;base64,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" alt="Mobile 3" class="mobile-image" onclick="showAlert('Mobile 3 clicked!')">
+    </div>
+
+
+    <script src="app.js"></script>
+   
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+        <img
+        src="https://t4.ftcdn.net/jpg/05/83/47/79/360_F_583477928_iU6lHyeu4DlgjNQhBrT8js4lMZn7Bl8s.jpg"
+        alt=""
+        onmouseover="src='https://cdn.pixabay.com/photo/2017/03/20/04/57/truck-2158284_640.png'"
+        onmouseout="src='https://t4.ftcdn.net/jpg/05/83/47/79/360_F_583477928_iU6lHyeu4DlgjNQhBrT8js4lMZn7Bl8s.jpg'"
+   >
+   <div>
+    <p>Counter Value: <span id="counter">0</span></p>
+    <button onclick="increaseCounter()">Increase</button>
+    <button onclick="decreaseCounter()">Decrease</button>
+</div>
+
+</body>
+</html>
